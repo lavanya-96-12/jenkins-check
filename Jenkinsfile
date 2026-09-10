@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Checkout') {
             steps{
-                gitbranch: 'main', url: 'https://github.com/<student-username>/<repo-name>.git'
+                gitbranch: 'main', url: 'https://github.com/lavanya-96-12/jenkins-check.git'
             }
         }
         stage('InstallDependencies') {
